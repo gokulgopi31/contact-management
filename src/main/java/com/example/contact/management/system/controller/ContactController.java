@@ -53,4 +53,8 @@ public class ContactController {
     public ResponseEntity<Contact> searchByPhone(@RequestParam String phone){
         return ResponseEntity.ok(contactService.searchByPhone(phone));
     }
+
+    public int checking(){
+        return 0;
+    }
 }
