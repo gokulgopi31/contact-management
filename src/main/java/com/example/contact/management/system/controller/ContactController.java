@@ -54,7 +54,7 @@ public class ContactController {
         return ResponseEntity.ok(contactService.searchByPhone(phone));
     }
 
-    public int checking(){
-        return 0;
+    public String hello(){
+        return "hello";
     }
 }
