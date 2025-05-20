@@ -57,4 +57,8 @@ public class ContactController {
     public String hello(){
         return "hello";
     }
+
+    public String world(){
+        return "hello";
+    }
 }
